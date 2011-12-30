@@ -1,0 +1,103 @@
+body {
+
+}
+.center {
+	text-align: center;
+	margin:0 auto;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.loading span{
+    text-align: center;
+}
+.loading {
+    padding-bottom: 20px;
+}
+.hidden_cache_container {
+    display: none;
+}
+
+.crease_button {
+    background-image:url(../images/nav.png);
+    padding: 2px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border:2px solid #222222;
+    color: #bbb;
+    font-size: 0.8em;
+    /*font-family: 'Times New Roman',Times,serif;*/
+}
+
+.crease_button:hover {
+    background-image:none;
+    /*border:2px solid #ccc;*/
+    /*cursor: pointer;*/
+}
+
+div.disabled {
+    color: black;
+    cursor: default;
+}
+
+.pagination {
+	text-align: right;
+}
+.pagination a, .pagination span {
+	border:1px solid black;
+	padding: 1px 3px 1px 3px;
+	font-size: .8em;
+	background-image:url(../images/nav.png);
+}
+.pagination a:hover {
+	color: black;
+}
+
+/* Dialogs */
+.dialog_main_container {
+    border: 1px solid black;
+}
+.dialog_main_container .dialog_header_text{
+     position: absolute;
+       margin: 2px 10px 0 10px;
+    font-size: .8em;
+        color: white;
+}
+.dialog_main_container .dialog_header {
+    background-image:url(../images/nav.png);
+}
+.dialog_main_container .dialog_body {
+    background-image: url(../images/transparent1.png);
+    color: white;
+    overflow: hidden;
+}
+.dialog_main_container .dialog_close_box {
+    background-image: url(../images/close.png);
+}
+.creasetoph_error_dialog .dialog_body{
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.json_error_container {
+    text-align: center;
+}
+
+.about_main_container {
+    text-align: center;
+}
+
+/*Site wide styles end*/
